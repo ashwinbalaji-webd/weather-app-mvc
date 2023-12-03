@@ -1,0 +1,12 @@
+{
+  "name": "weather-app",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel --port 3000"
+  },
+  "author": "Ashwin Balaji",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.10.3",
+    "parcel": "^2.10.3"
+  }
+}

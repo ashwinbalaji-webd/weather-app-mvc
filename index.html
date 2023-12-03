@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link href="./src/scss/main.scss" rel="stylesheet" />
+    <script defer src="./src/js/controller.js" type="module"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="logo-container">
+          <div>Weather Feedy</div>
+        </div>
+        <div id="search-bar-container">
+          <div class="search-bar">
+            <span class="material-symbols-outlined"> search </span>
+            <input
+              id="city-search-input"
+              type="search"
+              placeholder="Search by country"
+            />
+          </div>
+          <div id="select-country-container" class="d-none"></div>
+        </div>
+        <div id="tabs-container">
+          <button id="cities-tab" type="button">Cities</button>
+          <button id="bookmarks-tab" type="button">Bookmarks</button>
+        </div>
+      </header>
+      <main>
+        <div id="cities-container">
+          <div id="selected-country"></div>
+          <div id="cities-weathers"></div>
+        </div>
+        <div id="bookmarks-container" class="d-none">
+          <div id="selected-country">Bookmarks</div>
+          <div id="bookmarks-cities"></div>
+        </div>
+        <!--  -->
+      </main>
+      <!-- <div id="bookmarks-container" class="d-none"></div> -->
+    </div>
+  </body>
+</html>
