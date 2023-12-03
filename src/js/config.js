@@ -1,7 +1,7 @@
 export const TIMEOUT_SEC =  5000;
 // API
 /* GET Countries and their cities */
-export const WEATHER_STACK_API_KEY = 'e45e921fbf91d5d2f99fb153bb598ef9';
+export const WEATHER_STACK_API_KEY = 'YOUR_KEY';
 export const GET_COUNTRIES_CITIES_API = `https://countriesnow.space/api/v0.1/countries`;
 export const GET_CITY_WEATHER_API_URL = function (city) {
     return `http://api.weatherstack.com/current?access_key=${WEATHER_STACK_API_KEY}&query=${city}`;
